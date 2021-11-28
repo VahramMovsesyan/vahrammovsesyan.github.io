@@ -177,11 +177,14 @@ p,h1{
     .projects{
         margin-left: 20px;
     }
+    .NameLastname{
+        grid-template-columns: 150px 160px auto 260px;
+    }
     .Container .aboutMe:nth-child(1){
         grid-column:2/5;
     }
-    .NameLastname{
-        grid-template-columns: 150px 160px auto 260px;
+    .Container .Education:nth-child(2){
+        overflow: hidden;
     }
 }
 
