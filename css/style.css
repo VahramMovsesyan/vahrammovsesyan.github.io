@@ -8,7 +8,7 @@
 .blackheader{
     position: absolute;
     background: #000;
-    width: 2000px;
+    width: 100%;
     height: 135px;
     top: 0;
     z-index: -1;
@@ -29,6 +29,7 @@
 
 .number, .email{
     font-size: 15px;
+    
 }
 
 .pphoto{
@@ -123,7 +124,7 @@ p,h1{
 }
 
 .objtitle{
-    margin-left: 28%;
+    text-align: center;
 }
 
 
@@ -176,9 +177,6 @@ p,h1{
     .projects{
         margin-left: 20px;
     }
-    .objtitle{
-        margin-left: 20%;
-    }
     .Container .aboutMe:nth-child(1){
         grid-column:2/5;
     }
@@ -187,45 +185,45 @@ p,h1{
     }
 }
 
-@media screen  and (max-width:600px){
-
-    
-
+@media screen  and (max-width:520px){
+    .blackheader{
+        height: 95px;
+    }
     .pphoto{
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
     .NameLastname{
-        padding:30px 0 0 0px;
+        grid-template-columns: 100px 130px auto 200px;
+        padding:20px 0 0 0px;
     }
     .NameLastname p{
-        font-size:15px;
-        line-height:20px;
+        font-size:12px;
+        line-height:18px;
     }
     .text1, .text2{
-        font-size: 12px;
+        font-size: 10px;
     }    
     .contacts{
+        width: 180px;
         padding-right: 0;
-    }    
+    }
     .projects{
         flex-wrap: wrap;
         margin-left: 20px;
     }
-    .objtitle{
-        margin-left: 30%;
-    }
+
     .obj{
-        width:90%
+        width:100%
     }
     .Container{
         grid-template-rows: repeat(6, 1fr);
-        grid-template-columns:20px 180px 180px 40px;
+        grid-template-columns:20px 150px 150px 20px;
         grid-gap: 25px 20px;
     }        
     .Container .aboutMe:nth-child(1){
         grid-column:2/5;
-        overflow: hidden;
+        margin-right: 0;
     }
     .Container .Education:nth-child(2) {
         grid-column:2/3;
