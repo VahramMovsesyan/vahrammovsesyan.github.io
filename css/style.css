@@ -201,7 +201,7 @@ p,h1{
         padding:20px 0 0 0px;
     }
     .NameLastname p{
-        font-size:12px;
+        font-size:10px;
         line-height:18px;
     }
     .text1, .text2{
@@ -210,10 +210,10 @@ p,h1{
     }    
     .contacts{
         width: 180px;
-        padding-right:0;
+        padding:10px 0;
     }
     .info{
-        padding: 10px 0px 10px 10px;
+        padding: 10px 0px ;
     }
     .projects{
         flex-wrap: wrap;
