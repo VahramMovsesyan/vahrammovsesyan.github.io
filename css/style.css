@@ -197,7 +197,7 @@ p,h1{
         height: 100px;
     }
     .NameLastname{
-        grid-template-columns: 100px 120px 0 170px;
+        grid-template-columns: 100px 130px 0 180px;
         padding:20px 0 0 0px;
     }
     .NameLastname p{
