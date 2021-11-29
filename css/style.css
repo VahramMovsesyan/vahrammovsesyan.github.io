@@ -197,7 +197,7 @@ p,h1{
         height: 100px;
     }
     .NameLastname{
-        grid-template-columns: 100px 130px auto 200px;
+        grid-template-columns: 100px 120px 0 170px;
         padding:20px 0 0 0px;
     }
     .NameLastname p{
@@ -206,10 +206,14 @@ p,h1{
     }
     .text1, .text2{
         font-size: 10px;
+        padding-left: 0;
     }    
     .contacts{
         width: 180px;
-        padding-right: 0;
+        padding-right:0;
+    }
+    .info{
+        padding: 10px 0px 10px 10px;
     }
     .projects{
         flex-wrap: wrap;
@@ -221,9 +225,9 @@ p,h1{
     }
     .Container{
         grid-template-rows: repeat(6, 1fr);
-        grid-template-columns:20px 150px 150px 20px;
+        grid-template-columns:20px 140px 140px 20px;
         grid-gap: 25px 20px;
-    }        
+    }
     .Container .aboutMe:nth-child(1){
         grid-column:2/5;
         margin-right: 0;
